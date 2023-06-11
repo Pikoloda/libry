@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for
-from model import model
+from book import model
+
 app = Flask(__name__)
 
 
